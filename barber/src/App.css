@@ -38,3 +38,23 @@
     transform: rotate(360deg);
   }
 }
+
+.NavBar{
+border: 1px solid black;
+position: fixed;
+top: 0px;
+align-items: center;
+width: 100%;
+}
+
+.NavButton{
+
+font-size: larger;
+width: 20%;
+
+}
+
+.NavButton:hover {
+  background-color:#002ead;
+  transition: 0.7s;
+}
