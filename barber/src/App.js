@@ -1,5 +1,6 @@
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -13,14 +14,18 @@ function App() {
         <button className = "NavButton">CONTACT</button>
 
       </div>
+    <section id = "app-background">
+        <img src="../images/logo-symbol.jpg" alt="" className = "logo-symbol" />
+        <div className = "logo-name">
+          <h1>DSBLENDZ</h1>
+          <p>Sharper Cuts, Sharper Minds</p>
+          <img src="../images/logo-symbol.jpg" alt="" className = "logo-symbol" />
+          <div className='logo-button'>
+            <button>Learn More</button>
+          </div>
+        </div>
+      </section>
 
-
-
-    <header className="App-header">
-        <h1>DSBLENDZ</h1>
-        <p>Slogan</p>
-      </header>
-      <section id="app-background"></section>
     </div>
   );
 }

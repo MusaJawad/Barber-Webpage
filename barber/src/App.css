@@ -13,21 +13,14 @@
   }
 }
 
-.App-header {
-
-  text-align: center;
-  font-size: 1rem;
-  text-transform: uppercase;
-  margin-top: 0;
-  padding:0;
-} 
 
 #app-background{
-  background: linear-gradient(rgba(12, 11, 56, 0.5), rgba(206, 26, 26, 0.8)),
-              url(../images/grey-back.jpg);
+  background: linear-gradient(rgba(42, 31, 195, 0.53), rgba(56, 55, 55, 0.8)),
+              url(../images/image2.jpg);
   background-size: cover;
   background-position: center;
   height:100vh;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @keyframes App-logo-spin {
@@ -57,4 +50,42 @@ width: 20%;
 .NavButton:hover {
   background-color:#002ead;
   transition: 0.7s;
+}
+
+.logo-name {
+  text-align: center;
+  color:#ffffff;
+  padding-top: 10px;
+
+}
+
+.logo-name h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-style: italic;
+
+}
+
+.logo-name p {
+  font-size: 20px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+
+.logo-button button {
+  width: 200px;
+  display: inline-block;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-style: oblique;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.logo-button button:hover {
+  background-color: #332175;
+  color: white;
 }
