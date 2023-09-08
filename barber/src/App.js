@@ -25,6 +25,15 @@ function App() {
           </div>
         </div>
       </section>
+      <h2>SERVICES</h2>
+      <p>Men's Haircut - $25<br></br>
+        Women's Haircut <br></br>
+        Kid's Haircut <br></br>
+        Fade <br></br>
+        Shave <br></br>
+        Beard Lineup
+      </p>
+
 
     </div>
   );
